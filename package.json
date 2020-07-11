@@ -1,0 +1,16 @@
+{
+  "name": "cloud-run-app",
+  "version": "1.0.0",
+  "description": "Cloud run app",
+  "main": "cloud-run-app.js",
+  "scripts": {
+    "start": "node cloud-run-app.js"
+  },
+  "author": "Neil Kolban",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "redis": "^3.0.2"
+  }
+}
